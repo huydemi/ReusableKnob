@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ard-b4-7qQ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ard-b4-7qQ" customClass="Knob" customModule="ReusableKnob" customModuleProvider="target">
                                 <rect key="frame" x="20" y="80" width="140" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -82,6 +82,7 @@
                     </view>
                     <connections>
                         <outlet property="animateSwitch" destination="6kk-Lf-3nU" id="3ak-gs-iBK"/>
+                        <outlet property="knob" destination="ard-b4-7qQ" id="JNm-aw-R8W"/>
                         <outlet property="valueLabel" destination="jax-gM-27K" id="pJF-tj-o0g"/>
                         <outlet property="valueSlider" destination="Lhx-AO-0RM" id="2R6-rt-0TZ"/>
                     </connections>
